@@ -1,0 +1,7 @@
+---
+
+- import_tasks: install.yml
+  tags: [nvm, install]
+
+- import_tasks: deploy.yml
+  tags: [nvm, deploy]
